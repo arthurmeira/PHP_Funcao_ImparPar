@@ -5,7 +5,7 @@ function impar_par($numero)
 {
 /*Se usa % que substitui o MOD no PHP, 
 para capturar o resto ou módulo da divisão*/
-    if($impar = $numero % 2){
+    if($numero % 2){
         echo "$numero é IMPAR!";
     }else{
         echo "$numero é PAR!";
